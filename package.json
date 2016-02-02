@@ -1,0 +1,28 @@
+{
+  "name": "panorama-to-cubemap",
+  "version": "1.0.0",
+  "description": "A simple tool to convert panorama image to cubemap of 6 images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiwenl/PanoramaToCubemap.git"
+  },
+  "keywords": [
+    "panorama",
+    "cubemap"
+  ],
+  "author": "Yi-Wen LIN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/yiwenl/PanoramaToCubemap/issues",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}
